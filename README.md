@@ -42,6 +42,14 @@ U-Net image segmentation result: example over single patch. For full evaluation 
   <img src="/images/unet_patch_testing.jpg" width="750" />
 </p>
 
+## Team members
+- [Giulio D'Erasmo](https://github.com/giulio-derasmo)
+- [Arturo Ghinassi](https://github.com/santurini)
+- [Andrea Potì](https://github.com/obster991)
+- [Amedeo Ranaldi](https://github.com/Requiem98)
+- [Camilla Savarese](https://github.com/Camillasavarese)
+
+
 #
 
 <p align="center">
