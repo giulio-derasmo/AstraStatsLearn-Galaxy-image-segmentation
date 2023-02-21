@@ -39,7 +39,7 @@ The model we use are:
 U-Net image segmentation result: example over single patch. For full evaluation look at the presentation.
 
 <p float="left">
-  <img src="/images/unet_patch_testing.jpg" width="500" />
+  <img src="/images/unet_patch_testing.jpg" width="750" />
 </p>
 # 
 <p align="center">
