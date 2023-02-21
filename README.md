@@ -1,6 +1,8 @@
 # [AstraStatsLearn] Galaxy image segmentation
 
-University project at the course of Statistical Learning concerning **image segmentation** and object detection of **satellite images** of galaxies using different technique involving typical methods as Random Forest and KMeans, and neural networks like U-Net and Mask RCNN.
+University project at the course of Statistical Learning concerning **image segmentation** and object detection of **satellite images** of galaxies using different technique involving typical methods as Random Forest and KMeans, and neural networks like U-Net, Mask RCNN and DETR.
+
+A full presentation is available [here](https://github.com/giulio-derasmo/AstraStatsLearn-Galaxy-image-segmentation/blob/main/ASTROSTATLEARN-presentation.pdf).
 
 ## The data
 
@@ -14,13 +16,31 @@ We use different technique to pre-process the images.
 2. enhance the contrasts using FITS Liberator 3;
 3. add rms to the image.
 
+Below a slide of the different preprocess applied to a single patch:
+
 <p float="left">
   <img src="/images/original_patch.jpg" width="250" />
   <img src="/images/software_patch.jpg" width="250" /> 
   <img src="/images/final_preprocess.jpg" width="250" /> 
 </p>
 
+## Models
 
+The model we use are: 
+- Astropy cleaning
+- KMeans
+- Random Forest
+- U-Net
+- Mask RCNN
+- DETR
+
+## Results
+
+U-Net image segmentation result: example over single patch. For full evaluation look at the presentation.
+
+<p float="left">
+  <img src="/images/unet_patch_testing.jpg" width="500" />
+</p>
 # 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/50860347/147412786-183da6b0-990f-4016-9f2e-0719d8066f5b.png" style="width: 100%"/>
